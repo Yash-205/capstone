@@ -15,7 +15,6 @@
             color: #381664;
             box-sizing: border-box; 
         }
-
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -32,7 +31,6 @@
         .pageLinks a {
             transition: color 0.3s ease, text-decoration 0.3s ease;
         }
-
         .pageLinks a:hover {
             color: #440A8F; 
             text-decoration: underline;
@@ -43,7 +41,6 @@
             left: 0;
             width: 100vw;
         }
-
         .pageLinks {
             display: flex;
             list-style: none;
@@ -52,7 +49,6 @@
             padding: 0;
             flex-wrap: wrap; 
         }
-
         .pageLinks li a {
             text-decoration: none;
             color: #381664;
@@ -61,52 +57,43 @@
             padding: 0 10px; 
             transition: color 0.3s ease-in-out;
         }
-
         .pageLinks li a:hover {
             color: #440A8F;
         }
-
         .hero {
             text-align: center;
             padding: 60px 20px;
         }
-
         .hero h1 {
             font-size: 120px;
             font-weight: 700;
             margin: 0;
             transition: transform 0.3s ease-in-out;
         }
-
         .hero img {
             max-width: 100%;
             border: 1px solid #440A8F;
-            margin-top: 50px;
+            margin-top: 20px;
             transition: transform 0.3s ease-in-out;
         }
-
         .hero:hover h1 {
             transform: scale(1.05);
         }
-
         .hero:hover img {
             transform: scale(1.1);
         }
-
         .projects {
             margin-top: 40px;
             display: flex;
             flex-direction: column;
             gap: 40px;
         }
-
         .row {
             display: flex;
             gap: 30px;
             flex-wrap: wrap; 
             margin: 0 20px;
         }
-
         .project-card {
             text-align: left;
             margin-top: 20px;
@@ -115,45 +102,41 @@
             box-sizing: border-box; 
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
-
         .project-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
-
         .project-card img {
             border: 1px solid #440A8F;
             max-width: 100%;
             transition: transform 0.3s ease-in-out;
         }
-
         .project-card p {
             margin: 10px 0 0;
         }
-
         .project-name {
             font-size: 20px;
         }
-
         .about {
             font-size: 50px;
             text-align: center;
             padding: 40px;
+            transition: opacity 0.5s ease-in-out;
         }
-
+        .about:hover {
+            opacity: 0.9;
+        }
         .project-highlights {
             display: flex;
             flex-direction: column;
             padding: 40px 20px;
         }
-
         .project-highlights h2 {
             padding: 40px;
             text-align: left;
             font-size: 1.5rem;
             margin-bottom: 10px;
         }
-
         .project-details {
             padding: 40px;
             display: flex;
@@ -162,16 +145,13 @@
             flex-wrap: wrap; 
             margin: 0 20px;
         }
-
         .project-details div {
             text-align: left;
             margin: 10px 0;
         }
-
         .project-details p {
             margin: 4px 0;
         }
-
         .column {
             display: flex;
             gap: 30px;
@@ -179,7 +159,6 @@
             margin: 0 20px;
             justify-content: space-between; 
         }
-
         .ImpactMetris {
             margin-top: 80px;
             padding: 0 20px;
@@ -187,48 +166,42 @@
             justify-content: space-between;
             flex-wrap: wrap; 
         }
-
         .ImpactMetris2 {
             font-size: 28px;
         }
-
         .highlight {
             border-top: 0.1px solid #381664;
             text-align: left;
             width: 220px;
             padding-top: 15px;
             padding-bottom: 35px;
-            margin-bottom: 30px;   
+            margin-bottom: 30px; 
+            flex: 1 1 30%; 
             transition: transform 0.3s ease-in-out;
         }
-
         .highlight:hover {
             transform: translateY(-10px);
         }
-        
         .highlight p {
             font-size: 12px;
             margin: 1px;
         }
-
         .highlight h3 {
             font-size: 30px;
             margin: 1px;
         }
-
         .testimonials h2 {
             text-align: center;
             font-size: 2rem;
             color: #2a075b;
             margin: 1rem 0;
         }
-
         .testimonials {
             padding: 2rem 20px;
             margin-bottom: 30px;
             opacity: 0;
+            animation: fadeIn 1s forwards;
         }
-
         .testimonial-container {
             height: 200px;
             display: flex;
@@ -237,7 +210,6 @@
             padding-bottom: 20px;
             margin-bottom: 40px;
         }
-
         .testimonial {
             background-color: #FFFFFF;
             border-radius: 20px;
@@ -251,7 +223,6 @@
             gap: 20px;
             width: fit-content;
         }
-
         .text {
             font-size: 12px;
             display: flex;
@@ -259,24 +230,20 @@
             gap: 0;
             justify-content: center;
         }
-
         .testimonial img.avatar {
             width: 60px;
             height: 60px;
             border-radius: 50%;
             border: 1px solid #440A8F;
         }
-
         .testimonial h3 {
             font-weight: 600;
             margin: 0;
             color: #2a075b;
         }
-
         .testimonial .position {
             color: #381664;
         }
-
         .testimonial .feedback {
             margin-top: 10px;
             margin-left: 30px;
@@ -287,7 +254,6 @@
             color: #381664;
             padding-left: 48px;
         }
-
         .footer {
             display: flex;
             justify-content: space-between;
@@ -295,7 +261,6 @@
             font-size: 14px;
             padding-top: 60px;
         }
-
         .contact-button {
             margin-top: 20px;
             padding: 10px 20px;
@@ -308,44 +273,35 @@
             margin-bottom: 20px;
             transition: background-color 0.3s ease, color 0.3s ease;
         }
-
         .contact-button:hover {
             background-color: #440A8F;
             color: #fff;
         }
-
         @media (max-width: 1024px) {
             .pageLinks {
                 gap: 24px;
             }
-
             .hero h1 {
                 font-size: 5rem;
             }
-
             .ImpactMetris2 {
                 font-size: 2rem;
             }
-
             .testimonial-container {
                 gap: 2rem;
             }
-
             .footer {
                 flex-direction: row;
                 justify-content: space-between;
             }
-
             .highlight {
                 width: 100%; 
                 margin-bottom: 20px;
             }
-
             .about {
                 font-size: 35px;
             }
         }
-
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 4.5rem;
@@ -353,18 +309,15 @@
             .about {
                 font-size: 2rem;
             }
-
             .ImpactMetris {
                 align-items: center;
                 flex-direction: column;
                 gap: 20px;
             }
-
             .highlight {
                 width: 100%; 
                 margin-bottom: 20px;
             }
-
             .project-card {
                 flex: 1 0 100%; 
             }
@@ -372,7 +325,6 @@
             .column {
                 gap: 25px;
             }
-
             .pageLinks {
                 flex-direction: column; 
                 align-items: center; 
@@ -381,45 +333,34 @@
                 margin-left: 3.5rem;
             }
         }
-
         @media (max-width: 480px) {
             .hero h1 {
                 font-size: 2rem;
             }
-
             .about {
                 font-size: 1.5rem;
             }
-
             .pageLinks {
                 font-size: 0.9rem;
             }
-
             .testimonial h3 {
                 font-size: 1rem;
             }
-
             .testimonial .feedback {
                 font-size: 0.9rem;
             }
-
             .highlight h3 {
                 font-size: 1.5rem;
             }
-
             .highlight p {
                 font-size: 0.9rem;
             }
-
             .project-card {
                 flex: 1 0 100%; 
             }
-
-
             .column {
                 gap: 25px;
             }
-
             .pageLinks {
                 flex-direction: column; 
                 align-items: center;
@@ -428,7 +369,6 @@
                 margin-right: 3.5rem;
             }
         }
-
         @media (max-width: 345px){
             .navbar{
                 gap: 30px;
@@ -436,7 +376,14 @@
             .testimonial{
                 height: fit-content;
             }
-
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
         }
     </style>
 </head>
@@ -451,12 +398,10 @@
         </ul> 
     </header>
     <div class="divider"></div>
-
     <section class="hero">
         <h1>Welcome to My Creative World</h1>
         <img src="hero.png" alt="Creative Design">
     </section>
-
     <section id="projects" class="projects">
         <div class="row">
         <div class="project-card">
@@ -474,7 +419,6 @@
             <div class="project-name">Project C</div>
             <p>Illustration</p>
         </div>
-
         </div>
         <div class="row">
         <div class="project-card">
@@ -511,7 +455,6 @@
         </div>
         </div>
     </section>
-
     <section id="about" class="about">
         <p>Hi, I'm a creative professional specializing in graphic design and web development. I love turning ideas into visually stunning and functional designs.</p>
     </section>
@@ -534,7 +477,6 @@
             </div>
         </div>
     </section>
-
     <div class="ImpactMetris">
     <span class="ImpactMetris2">Impact Metris</span>
     <section class="highlights">
@@ -560,19 +502,9 @@
         </div>
     </section>
     </div>
-
-
-
     <section class="testimonials">
-
-
     <h2>What Clients Say</h2>
-
-
     <div class="testimonial-container">
-
-
-
       <div class="testimonial">
         <div class="above">
         <img src="avatar1.jpg" alt="Clara Bell" class="avatar">
@@ -583,9 +515,6 @@
         </div>
         <p class="feedback">Fantastic work! Highly recommend.</p>
       </div>
-
-
-
       <div class="testimonial">
         <div class="above">
         <img src="avatar2.jpg" alt="David Green" class="avatar">
@@ -596,27 +525,16 @@
         </div>
         <p class="feedback">Delivered beyond expectations.</p>
       </div>
-
-
-
-
       <div class="testimonial">
         <div class="above">
-
         <img src="avatar3.jpg" alt="Evelyn Hart" class="avatar">
         <div class="text">
-
         <h3>Evelyn Hart</h3>
         <p class="position">Founder, Artistry Studio</p>
-
         </div>
-
         </div>
         <p class="feedback">A true professional and talented designer.</p>
       </div>
-
-
-
       <div class="testimonial">
         <div class="above">
         <img src="avatar4.jpg" alt="Franklin Lee" class="avatar">
@@ -627,9 +545,6 @@
         </div>
         <p class="feedback">Creative and reliable. A pleasure to work with.</p>
       </div>
-
-
-
       <div class="testimonial">
         <div class="above">
         <img src="avatar5.jpg" alt="Grace Kim" class="avatar">
@@ -640,8 +555,6 @@
         </div>
         <p class="feedback">Exceptional quality and attention to detail.</p>
       </div>
-
-
       <div class="testimonial">
         <div class="above">
         <img src="avatar6.jpg" alt="Henry Brown" class="avatar">
@@ -652,15 +565,12 @@
         </div>
         <p class="feedback">Highly skilled and professional.</p>
       </div>
-
-
-
-
     </div>
   </section>
     <div class="divider"></div>
     <footer class="footer">
         <p>&copy; 2023 MyPortfolio</p>
-        <button class="contact-button" >Contact Me</button>
+        <button class="contact-button">Contact Me</button>
     </footer>
 </body>
+</html>
